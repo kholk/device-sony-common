@@ -99,6 +99,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service
 endif
 
+# Weaver
+PRODUCT_PACKAGES += \
+    android.hardware.weaver@1.0
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
